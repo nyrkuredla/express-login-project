@@ -1,0 +1,28 @@
+{
+  "name": "express-login-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyrkuredla/express-login-project.git"
+  },
+  "author": "Ryan Kelley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyrkuredla/express-login-project/issues"
+  },
+  "homepage": "https://github.com/nyrkuredla/express-login-project#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mustache-express": "^1.2.5",
+    "nodemon": "^1.11.0"
+  }
+}

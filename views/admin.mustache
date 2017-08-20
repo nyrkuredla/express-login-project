@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {{>_head}}
+  <body>
+    <div class="container">
+      {{#user}}
+      <p class="congrats">Congratulations, initiate {{name}}. You have been found worthy.</p>
+      <p>...</p>
+      <p>What, you were expecting...ice cream, or something?</p>
+      <form class="logout" action="/logout" method="post">
+        <input id="hmph" type="submit" name="submit" value="I wish to depart." onclick='change(this)'>
+      </form>
+      {{/user}}
+    </div>
+    <script type="text/javascript">
+      function hmph() {
+        document.getElementById('hmph').value="Hmph, fine. Begone.";
+        
+      }
+
+    </script>
+  </body>
+</html>

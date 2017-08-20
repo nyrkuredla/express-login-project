@@ -1,0 +1,60 @@
+/*
+FONTS:
+font-family: 'UnifrakturCook', cursive;
+font-family: 'Roboto Slab', serif;
+*/
+
+body {
+  background-image: url('/images/BLACK_IV_desktop-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #080808;
+  color: #AFAEAE;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+div.container {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+body p {
+  color: inherit;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 1.2em;
+}
+
+input {
+  background-color: #080808;
+  box-shadow: none;
+  border: 1px solid #AFAEAE;
+  color: #AFAEAE;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 1.2em;
+  padding: 5px;
+  transition: border color;
+  transition-duration: 1s;
+}
+
+input.submit:hover {
+  color: #941C1B;
+  border: 1px solid #941C1B;
+}
+
+
+ input[type=text]:focus {
+   border: 2px solid #941C1B;
+ }
+
+ input[type=password]:focus {
+   border: 2px solid #941C1B;
+ }
+
+p.congrats {
+  font-size: 1.5em;
+}
