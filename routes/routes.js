@@ -21,12 +21,13 @@ router
       if (req.body.password === foundUsr.password) {
         req.session.usr = { name: foundUsr.name }
         res.render('admin', {user: foundUsr})
-      } else {
-        res.send('You have been found wanting. Depart.')
+      }
+      else {
+        res.send("You have been found wanting. Depart.")
       }
     }
     else {
-      res.send("User not found.")
+      res.send("You have been found wanting. Depart.")
     }
 
   })
